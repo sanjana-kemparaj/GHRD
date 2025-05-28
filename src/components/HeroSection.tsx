@@ -35,10 +35,10 @@ const HeroSection = () => {
                         </p>
                         <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold text-gray-900 mb-4 md:mb-6 leading-tight">
                             Advance Your HR Career <br className="hidden md:inline" />
-                            with <span className="text-blue-600">GHRD's</span> Resources
+                            with <span className="text-blue-600">GHRD&apos;s</span> Resources
                         </h1>
                         <p className="text-gray-700 text-base md:text-lg lg:text-xl mb-6 md:mb-8">
-                            Unlock the Potential of Your HR Career with GHRD's Support.
+                            Unlock the Potential of Your HR Career with GHRD&apos;s Support.
                         </p>
                         <Button
                             size="lg"

@@ -3,14 +3,14 @@ import { Plus } from 'lucide-react';
 import no_image from '@/../public/no_image.jpeg'; // Placeholder image
 
 interface TeamMemberCardProps {
-    imageUrl: string;
+    
     name: string;
     role: string;
     roleColor?: string; // Optional color for the role text
 }
 
 const TeamMemberCard: React.FC<TeamMemberCardProps> = ({
-                                                           imageUrl,
+                                                          
                                                            name,
                                                            role,
                                                            roleColor = 'text-blue-600',

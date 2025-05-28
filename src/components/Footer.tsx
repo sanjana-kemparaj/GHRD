@@ -1,4 +1,3 @@
-import { ArrowUpCircle } from 'lucide-react'; // Assuming you still want a scroll-to-top
 
 const Footer = () => {
     const currentYear = new Date().getFullYear();

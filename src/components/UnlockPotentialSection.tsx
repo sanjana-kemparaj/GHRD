@@ -61,7 +61,7 @@ const UnlockPotentialSection = () => {
                         </div>
 
                         <h2 className="relative z-10 text-3xl sm:text-4xl md:text-5xl font-bold text-gray-800 mb-6 leading-tight mt-8 lg:mt-0">
-                            Unlock the Potential of Your HR Career with GHRD's Support.
+                            Unlock the Potential of Your HR Career with GHRD&apos;s Support.
                         </h2>
                         <p className="relative z-10 text-gray-600 text-base md:text-lg mb-10">
                             Mention the array of services, including unique offerings, that
