@@ -3,28 +3,28 @@ import TeamMemberCard from './TeamMemberCard';
 const teamMembersData = [
     {
         id: 1,
-        imageUrl: '/placeholder-team-1.jpg', // REPLACE with actual image paths
+        // imageUrl: '/placeholder-team-1.jpg', // REPLACE with actual image paths
         name: 'Mr. Prashanth',
         role: 'Sr. Manager',
         roleColor: 'text-blue-600',
     },
     {
         id: 2,
-        imageUrl: '/placeholder-team-2.jpg',
+        // imageUrl: '/placeholder-team-2.jpg',
         name: 'Mr. Srinivas Gopalam',
         role: 'Founder',
         roleColor: 'text-blue-600', // Or a different color for founder, e.g., text-orange-600
     },
     {
         id: 3,
-        imageUrl: '/placeholder-team-3.jpg',
+        // imageUrl: '/placeholder-team-3.jpg',
         name: 'Mr. Krishna Mohan',
         role: 'Sr. Manager',
         roleColor: 'text-blue-600',
     },
     {
         id: 4,
-        imageUrl: '/placeholder-team-4.jpg',
+        // imageUrl: '/placeholder-team-4.jpg',
         name: 'Mr. Prashanth', // Example, names might be unique
         role: 'Sr. Manager',
         roleColor: 'text-blue-600',
@@ -50,7 +50,6 @@ const TeamSection = () => {
                     {teamMembersData.map((member) => (
                         <TeamMemberCard
                             key={member.id}
-                            imageUrl={member.imageUrl}
                             name={member.name}
                             role={member.role}
                             roleColor={member.roleColor}
