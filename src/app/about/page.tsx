@@ -4,7 +4,6 @@ import { ArrowUp } from 'lucide-react';
 import Image from 'next/image';
 import hr_services from '@/../public/HR_Services.jpeg';
 import hrm from '@/../public/hrm.jpeg';
-import test from '@/../public/test.jpg'
 import TeamSection from "@/components/TeamSection";
 import UnlockPotentialSection from "@/components/UnlockPotentialSection";
 import PageBanner from "@/components/PageBanner";
@@ -91,7 +90,7 @@ const Page = () => {
                             </h3>
                             <p className="text-slate-600 leading-relaxed text-sm md:text-lg">
                                 GHRD was founded by <strong className="text-slate-700">Mr. Sreenivas Gopalam</strong>, a visionary leader in the HR domain, on
-                                the 12th of August in 2016. Mr. Gopalam's passion for HR excellence and his vision for a
+                                the 12th of August in 2016. Mr. Gopalam&apos;s passion for HR excellence and his vision for a
                                 global HR community led to the establishment of GHRD. Under his guidance, GHRD has
                                 grown into a thriving network, providing countless HR professionals with the tools and
                                 opportunities they need to succeed in their careers.
