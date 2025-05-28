@@ -63,7 +63,7 @@ export default function ContactPage() {
                             <ContactInfoCard
                                 icon={<MapPin />}
                                 title="Location"
-                                details="Visakhapatnam"
+                                details="Abu Dhabi Plaza Complex"
                             />
                         </div>
                     </div>
