@@ -37,7 +37,7 @@ const StatsBarSection = () => {
                         <StatsBarItem
                             key={stat.id}
                             icon={stat.icon}
-                            count={stat.count}
+                            count={stat.count.toString()}
                             label={stat.label}
                         />
                     ))}
