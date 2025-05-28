@@ -2,7 +2,7 @@ import React from 'react'
 
 interface StatsBarItemProps {
     icon: React.ReactNode;
-    count: number;
+    count: string;
     label: string;
 }
 
