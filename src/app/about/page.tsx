@@ -35,8 +35,8 @@ const Page = () => {
     return (
         <>
             <PageBanner title="About" breadcrumbs={breadcrumbs}/>
-            <section id="about" className="py-16 lg:py-24 bg-white">
-                <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+            <section id="about" className="py-16 lg:py-24 bg-white mb-5">
+                <div className="container mx-auto px-4 sm:px-6 lg:px-8 ">
                     <div className="flex flex-col lg:flex-row gap-12 lg:gap-16 items-start">
                         {/* Left Column - Images */}
                         <div className="w-full lg:w-1/2 flex flex-col gap-6">
@@ -67,34 +67,25 @@ const Page = () => {
                                 Global HRD
                             </h2>
                             <p className="text-slate-600 leading-relaxed mb-6 text-sm md:text-lg">
-                                Global HRD Network (GHRD) is a distinguished non-governmental organization and a
-                                registered non-profit entity dedicated to the advancement of the Human Resources
-                                profession. Our mission is to serve as a catalyst for knowledge sharing, facilitate the
-                                transfer of expertise, and create unparalleled networking opportunities for HR
-                                professionals worldwide.
+                                As a distinguished organization, the Global HRD Network (GHRD) is dedicated to the global advancement of the Human Resources profession. Through initiatives like our vibrant <strong className="text-blue-600">GHRD Gulf Chapter</strong> and our worldwide network, we strive to be a catalyst for impactful knowledge sharing, facilitate the seamless transfer of expertise, and create unparalleled networking opportunities for HR professionals.
                             </p>
 
                             <h3 className="text-xl sm:text-2xl font-semibold text-slate-700 mb-3 mt-8">
                                 Our Mission and Vision:
                             </h3>
                             <p className="text-slate-600 leading-relaxed mb-6 text-sm md:text-lg">
-                                At GHRD, our mission is clear: to be a knowledge and networking hub for HR
-                                professionals, transcending geographical boundaries. We aim to unite HR experts from
-                                diverse backgrounds and industries, offering them a collaborative platform that fosters
-                                their personal and professional growth. We believe in the power of collective wisdom
-                                and shared experiences to elevate the HR field to new heights.
+                                At GHRD, our mission is clear: to be a knowledge and networking hub for HR professionals that transcends geographical boundaries. Through dedicated regional arms like our <strong className="text-blue-600">GHRD Gulf Chapter</strong>, and our wider global network, we aim to unite HR experts from diverse backgrounds and industries. We provide them with a vibrant, collaborative platform that actively fosters their personal and professional growth, because we believe in the transformative power of collective wisdom and shared experiences to elevate the HR field.
                             </p>
 
                             <h3 className="text-xl sm:text-2xl font-semibold text-slate-700 mb-3 mt-8">
                                 Founding Inspiration:
                             </h3>
                             <p className="text-slate-600 leading-relaxed text-sm md:text-lg">
-                                GHRD was founded by <strong className="text-slate-700">Mr. Sreenivas Gopalam</strong>, a visionary leader in the HR domain, on
-                                the 12th of August in 2016. Mr. Gopalam&apos;s passion for HR excellence and his vision for a
-                                global HR community led to the establishment of GHRD. Under his guidance, GHRD has
-                                grown into a thriving network, providing countless HR professionals with the tools and
-                                opportunities they need to succeed in their careers.
-                            </p>
+  Founded on 31st August 2025 by <strong className="text-slate-700">Mr. Kemparaj</strong>, a leader in human capital development, GHRD was born from a commitment to redefine HR excellence. This vision crystallized with the launch of the <strong className="text-blue-600">GHRD Gulf Chapter</strong> - a strategic initiative designed to bridge international HR practices with international expertise.
+</p>
+<p className="text-slate-600 leading-relaxed text-sm md:text-lg mt-4">
+  Under Mr. Kemparaj&apos;s leadership, the <strong className="text-blue-600">GHRD Gulf Chapter</strong> has become the cornerstone of our global network, offering HR professionals across the globe unparalleled access to cutting-edge resources, cross-border career pathways, and a collaborative platform to shape the future of workforce development.
+</p>
                         </div>
                     </div>
                 </div>

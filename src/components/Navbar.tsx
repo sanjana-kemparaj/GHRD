@@ -5,7 +5,7 @@ import { useState } from "react";
 
 import Image from "next/image";
 import { Menu, X } from "lucide-react";
-import logo from "@/../public/logo.jpeg";
+import logo from "@/../public/logo.png";
 
 const navLinks = [
     {href:"/", label:"Home"},
@@ -21,10 +21,11 @@ const Navbar = () => {
     const toggleMobileMenu = () =>{
         setIsMobileMenuOpen(!isMobileMenuOpen);
     }
+ 
     return (
         <nav className="bg-white shadow-md sticky top-0 z-50">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div className="flex items-center justify-between h-20"> {/* Increased height for better spacing */}
+                <div className="flex items-center justify-between"> {/* Increased height for better spacing */}
                     {/* Logo */}
                     <div className="flex-shrink-0">
                         <Link href="/" className="flex items-center">
@@ -34,7 +35,7 @@ const Navbar = () => {
                                 alt="GHRD Logo"
                                 width={120} // Adjust as needed
                                 height={40} // Adjust as needed
-                                className="h-20 w-20 w-auto" // Adjust based on your logo's aspect ratio
+                                className="h-30 w-auto top-0" // Adjust based on your logo's aspect ratio
                             />
                         </Link>
                     </div>

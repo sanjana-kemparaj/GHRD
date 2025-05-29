@@ -28,8 +28,8 @@ export default function ContactPage() {
         "Fatima Bint Mubarak Street,",
         "Abu Dhabi, UAE.",
         "Ph: +971543546423 | Fax : (971 2) 6738815",
-        "Mail: raj@aceglobalhr.com",
-        "Website: www.aceglobalhr.com",
+        "Mail: hr@aceglobalhr.com",
+        "Website: www.aceglobalhr.com | hr@aceglobalhr.com",
     ];
 
 
@@ -50,14 +50,14 @@ export default function ContactPage() {
                                 icon={<Phone />}
                                 title="Call Us"
                                 details={
-                                    <a href="tel:+919666669267" className="hover:text-blue-600">+91 96666 69267</a>
+                                    <a href="tel:+971 54 354 6423" className="hover:text-blue-600">+971 54 354 6423</a>
                                 }
                             />
                             <ContactInfoCard
                                 icon={<Mail />}
                                 title="Email Us"
                                 details={
-                                    <a href="mailto:chro@ghrd.in" className="hover:text-blue-600">chro@ghrd.in</a>
+                                    <a href="hr@aceglobalhr.com" className="hover:text-blue-600">hr@aceglobalhr.com</a>
                                 }
                             />
                             <ContactInfoCard

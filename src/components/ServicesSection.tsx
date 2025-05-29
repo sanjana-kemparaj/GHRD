@@ -1,61 +1,60 @@
 import ServiceCard from './ServiceCard';
 import {
-    Briefcase, // For Professional Workshops
-    Users,     // For Mentorship / Networking
-    Share2,    // For Knowledge Sharing
-    Globe,     // For Global HR Benchmarking / Networking
-    Award,     // For Exclusive Member Events
-    BarChart3, // For Benchmarking
-    // Add more icons as needed from lucide-react
+    Users,
+    Globe,    
+    Award,     
+    Lightbulb,
+    Zap,
+    TrendingUp,
 } from 'lucide-react';
 
 const servicesData = [
     {
         id: 1,
-        icon: <Share2 className="h-12 w-12 md:h-14 md:w-14" />, // Example icon
-        title: 'Knowledge Sharing',
+        icon: <Users className="h-12 w-12 md:h-14 md:w-14 text-[#ff8c00]" />,
+        title: 'Connect with a Global HR Community',
         description:
-            'At GHRD, we are committed to sharing and transferring HR knowledge globally. Our platform offers a wealth of resources, webinars, and articles to help you stay updated with the latest HR trends and best practices.',
-        linkHref: '/membership', // Replace with actual link
+            'Expand your professional horizons by joining GHRD\'s extensive international HR community. Forge meaningful connections with peers and leaders from varied sectors and cultures, building a robust network essential for career advancement.',
+        linkHref: '/membership',
     },
     {
         id: 2,
-        icon: <BarChart3 className="h-12 w-12 md:h-14 md:w-14" />, // Example icon
-        title: 'Global HR Benchmarking',
+        icon: <Lightbulb className="h-12 w-12 md:h-14 md:w-14 text-[#ff8c00]" />, // Changed icon
+        title: 'HR Insights & Learning Hub',
         description:
-            'Access a unique service that allows you to benchmark your HR practices and strategies against global standards. GHRD offers comprehensive benchmarking tools and reports for improvement.',
+            'Stay at the forefront of the HR field with GHRD. Our dynamic platform provides a continuous flow of expert insights, cutting-edge research, best-practice guides, and engaging webinars to fuel your knowledge.',
         linkHref: '/membership',
     },
     {
         id: 3,
-        icon: <Briefcase className="h-12 w-12 md:h-14 md:w-14" />, // Example icon
-        title: 'Professional Workshops',
+        icon: <Zap className="h-12 w-12 md:h-14 md:w-14 text-[#ff8c00]" />, // Changed icon
+        title: 'HR Skills Enhancement Workshops',
         description:
-            'Elevate your HR skills through our exclusive workshops and training programs. We offer a range of courses covering topics from leadership development to HR technology, ensuring your continuous growth.',
+            'Sharpen your HR competencies with our targeted workshops and specialized training sessions. Participate in dynamic learning experiences covering essential topics, from strategic leadership to emerging HR technologies, fostering your ongoing professional development.',
         linkHref: '/membership',
     },
     {
         id: 4,
-        icon: <Users className="h-12 w-12 md:h-14 md:w-14" />, // Example icon
-        title: 'Global HR Networking',
+        icon: <Award className="h-12 w-12 md:h-14 md:w-14 text-[#ff8c00]" />,
+        title: 'Guided HR Career Mentorship',
         description:
-            'GHRD is your gateway to a vast global HR network. Connect with HR professionals from diverse backgrounds, industries, fostering valuable relationships for your career.',
+            'Accelerate your career path through our structuorange mentorship initiatives. Receive personalized guidance, strategic advice, and invaluable insights from seasoned HR executives dedicated to fostering your growth.',
         linkHref: '/membership',
     },
     {
         id: 5,
-        icon: <Award className="h-12 w-12 md:h-14 md:w-14" />, // Example icon
-        title: 'Mentorship Programs', // Changed title to match the image more broadly
+        icon: <TrendingUp className="h-12 w-12 md:h-14 md:w-14 text-[#ff8c00]" />, // Changed icon
+        title: 'Strategic HR Benchmarking',
         description:
-            'Our mentorship programs provide you with the opportunity to learn from experienced HR leaders. Gain insights, advice, and guidance to further your HR career.',
+            'Evaluate and enhance your HR effectiveness with our distinctive benchmarking service. Compare your organization\'s HR practices and strategic approaches against established global benchmarks, utilizing our in-depth tools and reports to drive continuous improvement.',
         linkHref: '/membership',
     },
     {
         id: 6,
-        icon: <Globe className="h-12 w-12 md:h-14 md:w-14" />, // Example icon
-        title: 'Exclusive Member Events',
+        icon: <Globe className="h-12 w-12 md:h-14 md:w-14 text-[#ff8c00]" />,
+        title: 'Signature HR Events & Conferences',
         description:
-            'Enjoy access to members-only events and conferences, where you can engage with thought leaders and industry experts, expanding your knowledge and network.',
+            'Participate in our premier members-only events, summits, and conferences. These exclusive gatherings offer prime opportunities to interact with influential thought leaders and industry pioneers, significantly broadening your expertise and professional circle.',
         linkHref: '/membership',
     },
 ];
@@ -64,13 +63,18 @@ const ServicesSection = () => {
     return (
         <section className="py-16 md:py-24 bg-white">
             <div className="container mx-auto px-4">
+                
                 <div className="text-center mb-12 md:mb-16">
+                    
                     <p className="text-sm md:text-base text-blue-600 font-semibold uppercase tracking-wider mb-2">
                         OUR SERVICES
                     </p>
                     <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-800">
                         High Quality Services
                     </h2>
+                    <h1 className="text-4xl font-bold text-gray-800 m-5"> {/* Or your existing classes */}
+  Building People, Building <span style={{ color: '#ff8c00' }}>Futures</span>
+</h1>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

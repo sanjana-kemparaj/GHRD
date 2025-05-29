@@ -3,13 +3,13 @@ import { CheckCircle2, Phone, ArrowUpCircle } from 'lucide-react';
 import meeting from "@/../public/buisnessmeeting.jpeg";
 import shake from "@/../public/shake.jpeg";
 const AboutUsSection = () => {
-    const features = [
-        'HR Research Collaborations',
-        'Diversity and Inclusion Initiatives',
-        'HR Certification Support',
-        'And Many more...',
-        'HR Legal and Compliance Updates',
-    ];
+   const features = [
+    'Opportunities for HR Research Collaboration',
+    'Access to Diversity & Inclusion Best Practices',
+    'Support for Achieving HR Certifications',
+    'Explore Our Full Suite of Member Benefits...',
+    'Briefings on HR Legal and Compliance Matters',
+];
 
     return (
         <section className="relative py-16 md:py-24 bg-white overflow-hidden">
@@ -43,13 +43,10 @@ const AboutUsSection = () => {
                             MORE ABOUT US
                         </p>
                         <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-800 mb-6 leading-tight">
-                            We know how to make you <br className="hidden sm:inline" />
-                            better
+                            Transforming Your <br className="hidden sm:inline" /> HR Journey
                         </h2>
                         <p className="text-gray-600 text-base md:text-lg mb-8">
-                            Discover endless opportunities to nurture your personal and
-                            professional growth. Connect with HR experts, access valuable
-                            resources, and watch your career thrive.
+                            Access unparalleled opportunities for comprehensive growth. Connect with seasoned HR professionals, leverage exclusive insights, and accelerate your career trajectory.
                         </p>
 
                         <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-4 mb-10 text-left">
@@ -67,10 +64,10 @@ const AboutUsSection = () => {
                                 <div>
                                     <p className="text-xs font-medium">Call us</p>
                                     <a
-                                        href="tel:+919666669267"
+                                        href="tel:+971 54 354 6423"
                                         className="text-lg font-semibold hover:underline"
                                     >
-                                        +91 96666 69267
+                                        +971 54 354 6423
                                     </a>
                                 </div>
                             </div>
@@ -104,11 +101,11 @@ const AboutUsSection = () => {
 
                             {/* Stats Box */}
                             <div className="absolute h-30 w-40 sm:top-0 sm:right-0 sm:-mt-10 sm:mr-5 md:top-auto md:bottom-5  md:-left-10 md:-mb-8  md:-mr-8
-  bg-orange-500 text-white
+  bg-[#ff8c00] text-white
   p-6 sm:p-8 rounded-xl shadow-2xl
   flex flex-col items-center justify-center text-center
   z-20 animate-bounce">
-                                <p className="text-4xl sm:text-3xl font-bold">15+</p>
+                                <p className="text-4xl sm:text-3xl font-bold">20+</p>
                                 <p className="text-sm sm:text-base font-medium mt-1">Years</p>
                                 <p className="text-xs sm:text-sm mt-2 leading-tight">
                                     Of experience in HR services

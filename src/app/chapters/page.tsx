@@ -1,30 +1,37 @@
-// src/app/chapters/page.tsx
-import ChapterCard from '@/components/ChapterCard';
-import PageBanner from "@/components/PageBanner"; // Adjust path if needed
 
-// Sample data - we'll repeat this or use parts of it to make 12 cards
+import ChapterCard from '@/components/ChapterCard';
+import PageBanner from "@/components/PageBanner"; 
+
+
 const sampleChapterData = [
-    { title: "Amaravathi", members: 371 },
-    { title: "Arunachal Pradesh", members: 330 },
-    { title: "Bangalore", members: 309 },
-    { title: "Chatisgadh", members: 371 }, // Note: Corrected spelling from image for consistency
-    { title: "Chennai", members: 251 },
-    { title: "Coimbatore", members: 253 },
-    { title: "Gujarat", members: 253 },
-    { title: "Haryana", members: 330 },
-    { title: "Himachal Pradesh", members: 309 },
-    { title: "Hubli", members: 253 },
-    { title: "Hyderabad", members: 607 },
-    { title: "Jammu & Kashmir", members: 253 },
+    { title: "UAE", members: 371 },
+    { title: "Saudi Arabia", members: 371 },
+    { title: "Kuwait", members: 371 },
+     { title: "China", members: 371 },
+     { title: "Australia", members: 371 },
+     { title: "Canada", members: 371 },
+     { title: "UK", members: 371 },
+    { title: "India - Amaravathi", members: 371 },
+    { title: "India - Arunachal Pradesh", members: 330 },
+    { title: "India - Bangalore", members: 309 },
+    { title: "India - Chatisgadh", members: 371 }, 
+    { title: "India - Chennai", members: 251 },
+    { title: "India - Coimbatore", members: 253 },
+    { title: "India - Gujarat", members: 253 },
+    { title: "India - Haryana", members: 330 },
+    { title: "India - Himachal Pradesh", members: 309 },
+    { title: "India - Hubli", members: 253 },
+    { title: "India - Hyderabad", members: 607 },
+    { title: "India - Jammu & Kashmir", members: 253 },
+    { title: "South Africa - Gauteng", members: 253 },
+    { title: "South Africa - Western Cape", members: 253 },
+    { title: "Nigeria", members: 253 },
 ];
 
-// Create 12 cards for the grid.
-// We'll cycle through the sample data if it's shorter than 12.
-const chaptersToDisplay = Array.from({ length: 12 }, (_, i) => {
+const chaptersToDisplay = Array.from({ length: 22}, (_, i) => {
     const data = sampleChapterData[i % sampleChapterData.length];
     return {
         ...data,
-        // You can customize the link per chapter if needed, e.g., `/membership/${data.title.toLowerCase().replace(/\s+/g, '-')}`
         membershipLink: `/membership?chapter=${encodeURIComponent(data.title)}`
     };
 });
@@ -52,7 +59,7 @@ export default function ChaptersPage() {
                             OUR CHAPTERS
                         </p>
                         <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-800">
-                            Explore our diverse chapters across the nation and get involved.
+                            Explore our diverse chapters across the globe and get involved.
                         </h2>
                     </div>
 

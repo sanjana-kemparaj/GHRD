@@ -2,10 +2,10 @@ import Image from 'next/image';
 import FeatureListItem from './FeatureListItem';
 import Growth from '@/../public/growth.jpeg'; // Example import, replace with your actual SVG
 const featuresData = [
-    'HR Research Collaborations',
-    'Knowledge Sharing and Transfer',
-    'Discover the Power of Networking',
-    'Mentorship Programs',
+    'Engage in Collaborative HR Research',
+    'Access & Exchange Expert HR Insights',
+    'Build Your Influential Professional Network',
+    'Gain Guidance through HR Mentorship',
 ];
 
 const UnlockPotentialSection = () => {
@@ -64,10 +64,8 @@ const UnlockPotentialSection = () => {
                             Unlock the Potential of Your HR Career with GHRD&apos;s Support.
                         </h2>
                         <p className="relative z-10 text-gray-600 text-base md:text-lg mb-10">
-                            Mention the array of services, including unique offerings, that
-                            GHRD provides to its members for their advancement in the HR
-                            profession.
-                        </p>
+    GHRD empowers HR professionals like you with a comprehensive suite of resources and unique opportunities designed to fuel your career advancement. From collaborative research to global networking, we provide the support you need to thrive in the ever-evolving HR landscape.
+</p>
 
                         <ul className="space-y-4 max-w-md mx-auto lg:mx-0">
                             {featuresData.map((feature, index) => (

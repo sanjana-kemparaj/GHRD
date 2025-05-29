@@ -18,7 +18,7 @@ export default function ChapterCard({ title, memberInfo, membershipLink = "/memb
             </p>
             <Link
                 href={membershipLink}
-                className="text-gray-800 font-semibold hover:text-red-600 transition-colors duration-150 self-start text-sm sm:text-base"
+                className="text-[#ff8c00] font-semibold hover:text-red-600 transition-colors duration-150 self-start text-sm sm:text-base"
             >
                 Get Membership
             </Link>

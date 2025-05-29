@@ -34,15 +34,15 @@ const HeroSection = () => {
                             GROW YOUR HR CAREER
                         </p>
                         <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold text-gray-900 mb-4 md:mb-6 leading-tight">
-                            Advance Your HR Career <br className="hidden md:inline" />
-                            with <span className="text-blue-600">GHRD&apos;s</span> Resources
+                            Transform Your HR Journey <br className="hidden md:inline" />
+                            with <span className="text-blue-600">GHRD&apos;s</span> Support and Insights.
                         </h1>
                         <p className="text-gray-700 text-base md:text-lg lg:text-xl mb-6 md:mb-8">
                             Unlock the Potential of Your HR Career with GHRD&apos;s Support.
                         </p>
                         <Button
                             size="lg"
-                            className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 text-lg rounded-md shadow-md transition-transform duration-150 ease-in-out hover:scale-105"
+                            className="bg-[#ff8c00] hover:bg-orange-600 text-white px-8 py-3 text-lg rounded-md shadow-md transition-transform duration-150 ease-in-out hover:scale-105"
 
                         >
                             Get Membership

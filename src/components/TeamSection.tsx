@@ -4,29 +4,29 @@ const teamMembersData = [
     {
         id: 1,
         // imageUrl: '/placeholder-team-1.jpg', // REPLACE with actual image paths
-        name: 'Mr. Prashanth',
-        role: 'Sr. Manager',
+        name: 'Abdul Aziz A. Al Ameri',
+        role: 'Chairman Petrogulf Business Group & SkilTec Ace Global HR Consultancy LLC',
         roleColor: 'text-blue-600',
     },
     {
         id: 2,
         // imageUrl: '/placeholder-team-2.jpg',
-        name: 'Mr. Srinivas Gopalam',
-        role: 'Founder',
+        name: 'Kemparaj',
+        role: 'Managing Director',
         roleColor: 'text-blue-600', // Or a different color for founder, e.g., text-orange-600
     },
     {
         id: 3,
         // imageUrl: '/placeholder-team-3.jpg',
-        name: 'Mr. Krishna Mohan',
-        role: 'Sr. Manager',
+        name: 'Shafqat Zaheer',
+        role: 'Advisor - Business Development',
         roleColor: 'text-blue-600',
     },
     {
         id: 4,
         // imageUrl: '/placeholder-team-4.jpg',
-        name: 'Mr. Prashanth', // Example, names might be unique
-        role: 'Sr. Manager',
+        name: 'Syed Riaz', // Example, names might be unique
+        role: 'Director - Talent Acquisition & Operations',
         roleColor: 'text-blue-600',
     },
     // Add more team members as needed
